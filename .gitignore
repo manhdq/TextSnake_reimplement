@@ -1,0 +1,7 @@
+*.mat
+*.jpg
+*.tfevents.*
+*.txt
+*__pycache__*
+*.pth
+*.zip
