@@ -91,10 +91,6 @@ if __name__ == "__main__":
 
     update_config(cfg, args)
 
-    vis_dir = os.path.join(cfg.vis_dir, '{}_deploy'.format(cfg.exp_name))
-    if not os.path.exists(vis_dir):
-        mkdirs(vis_dir)
-
     imgs = ['data/total-text/Images/Test/img5.jpg',
             'data/total-text/Images/Test/img6.jpg',
             'data/total-text/Images/Test/img7.jpg']
